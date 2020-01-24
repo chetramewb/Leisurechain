@@ -273,3 +273,84 @@ body{font-size:$fontsize;  margin: 0 auto;   font-family: '.Gotham Narrow'; back
 
 
 
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px) {
+    #country {
+        display: flex;
+        .country-heading {
+    
+            form{
+    
+                #international {
+                     
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+    
+                #National {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+    
+                .search {
+                    width: 100%;
+                    
+                }
+                
+            }
+        }
+    }
+    
+
+
+}/**********991************/
+
+
+
+@media only screen and (max-width:991px) {
+
+    #image-block {
+    display: flex; text-align: center;
+    .catagerious-content{
+
+        .catagerious-heading { background:none;
+            h4 {font-size: 20px;}
+
+            .p-bread-crum {
+                font-size: 14px !important;
+            }
+
+        } /******catagerious-heading*****/
+
+        .company-heading {
+            .c-image-heading {
+                img{width: 100%;
+                    float: unset;
+                    padding: 5px;
+                    margin-right: 0px;}
+
+                    
+
+
+            }/**c-image-heading***/
+
+            .company-text{
+                .Read {
+                    padding-left: 0px !important;
+                }
+            }
+
+
+        }/********company-heading***/
+
+    } /*****catagerious-content*******/
+}
+
+}/*******991*******/

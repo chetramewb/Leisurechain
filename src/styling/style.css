@@ -11743,3 +11743,42 @@ body {
       display: inline-block;
       background: #fff;
       padding: 30px; }
+
+@media only screen and (max-width: 991px) {
+  #country {
+    display: flex; }
+    #country .country-heading form #international {
+      width: 100%;
+      margin-bottom: 10px; }
+    #country .country-heading form #National {
+      width: 100%;
+      margin-bottom: 10px; }
+    #country .country-heading form .search {
+      width: 100%; } }
+
+/**********991************/
+@media only screen and (max-width: 991px) {
+  #image-block {
+    display: flex;
+    text-align: center;
+    /*****catagerious-content*******/ }
+    #image-block .catagerious-content {
+      /******catagerious-heading*****/
+      /********company-heading***/ }
+      #image-block .catagerious-content .catagerious-heading {
+        background: none; }
+        #image-block .catagerious-content .catagerious-heading h4 {
+          font-size: 20px; }
+        #image-block .catagerious-content .catagerious-heading .p-bread-crum {
+          font-size: 14px !important; }
+      #image-block .catagerious-content .company-heading {
+        /**c-image-heading***/ }
+        #image-block .catagerious-content .company-heading .c-image-heading img {
+          width: 100%;
+          float: unset;
+          padding: 5px;
+          margin-right: 0px; }
+        #image-block .catagerious-content .company-heading .company-text .Read {
+          padding-left: 0px !important; } }
+
+/*******991*******/
